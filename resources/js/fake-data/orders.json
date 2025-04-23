@@ -1,0 +1,264 @@
+{
+    "orders":[
+        {
+          "created": "2024-07-18 10:47",
+          "email": "ivanov.ivan@example.ru",
+          "secondaryRecipients": "petrova.olga@example.ru, smirnov.alexey@example.ru",
+          "type": "На рассмотрении",
+          "status": "Тест 1",
+          "currentInstance": "Отдел тестирования",
+          "stage": "1 / 3",
+          "deadline": "2024-07-20",
+          "comment": "Начальная проверка."
+        },
+        {
+          "created": "2024-07-19 09:34",
+          "email": "petrova.olga@example.ru",
+          "secondaryRecipients": "ivanov.ivan@example.ru, vasilieva.katerina@example.ru",
+          "type": "Одобрено",
+          "status": "Тест 2",
+          "currentInstance": "Юридический отдел",
+          "stage": "2 / 4",
+          "deadline": "2024-07-22",
+          "comment": "Рассмотрено и одобрено."
+        },
+        {
+          "created": "2024-07-20 14:22",
+          "email": "smirnov.alexey@example.ru",
+          "secondaryRecipients": "kuznetsov.dmitry@example.ru, popova.natalia@example.ru",
+          "type": "Ожидает",
+          "status": "Тест 3",
+          "currentInstance": "Финансовый отдел",
+          "stage": "3 / 5",
+          "deadline": "2024-07-25",
+          "comment": "Ожидание дополнительной информации."
+        },
+        {
+          "created": "2024-07-21 11:00",
+          "email": "vasilieva.katerina@example.ru",
+          "secondaryRecipients": "smirnov.alexey@example.ru, fedorov.vladimir@example.ru",
+          "type": "Отклонено",
+          "status": "Тест 4",
+          "currentInstance": "Отдел кадров",
+          "stage": "2 / 6",
+          "deadline": "2024-07-27",
+          "comment": "Отклонено из-за отсутствия документов."
+        },
+        {
+          "created": "2024-07-22 08:15",
+          "email": "kuznetsov.dmitry@example.ru",
+          "secondaryRecipients": "nikitina.maria@example.ru, orlov.sergey@example.ru",
+          "type": "На рассмотрении",
+          "status": "Тест 5",
+          "currentInstance": "Отдел логистики",
+          "stage": "4 / 7",
+          "deadline": "2024-07-29",
+          "comment": "На стадии рассмотрения."
+        },
+        {
+          "created": "2024-07-23 13:25",
+          "email": "popova.natalia@example.ru",
+          "secondaryRecipients": "gorbatov@example.ru, mikhaylova.anastasia@example.ru",
+          "type": "Одобрено",
+          "status": "Тест 6",
+          "currentInstance": "ИТ-отдел",
+          "stage": "3 / 8",
+          "deadline": "2024-07-30",
+          "comment": "Одобрено с незначительными исправлениями."
+        },
+        {
+          "created": "2024-07-24 16:00",
+          "email": "fedorov.vladimir@example.ru",
+          "secondaryRecipients": "dmitriev@example.ru, zaitsev@example.ru",
+          "type": "Ожидает",
+          "status": "Тест 7",
+          "currentInstance": "Отдел маркетинга",
+          "stage": "2 / 9",
+          "deadline": "2024-08-01",
+          "comment": "Ожидание дальнейшей проверки."
+        },
+        {
+          "created": "2024-07-25 17:40",
+          "email": "nikitina.maria@example.ru",
+          "secondaryRecipients": "koryakov@example.ru, tarasov@example.ru",
+          "type": "Отклонено",
+          "status": "Тест 8",
+          "currentInstance": "Отдел закупок",
+          "stage": "1 / 10",
+          "deadline": "2024-08-02",
+          "comment": "Отклонено из-за неверных данных."
+        },
+        {
+          "created": "2024-07-26 10:30",
+          "email": "orlov.sergey@example.ru",
+          "secondaryRecipients": "adams@example.ru, green@example.ru",
+          "type": "На рассмотрении",
+          "status": "Тест 9",
+          "currentInstance": "Отдел операций",
+          "stage": "5 / 11",
+          "deadline": "2024-08-05",
+          "comment": "Ожидание дополнительных документов."
+        },
+        {
+          "created": "2024-07-27 09:15",
+          "email": "mikhaylova.anastasia@example.ru",
+          "secondaryRecipients": "moore@example.ru, hernandez@example.ru",
+          "type": "Одобрено",
+          "status": "Тест 10",
+          "currentInstance": "Отдел продаж",
+          "stage": "3 / 12",
+          "deadline": "2024-08-07",
+          "comment": "Одобрено для дальнейшего анализа."
+        },
+        {
+          "created": "2024-07-28 15:00",
+          "email": "gorbatov@example.ru",
+          "secondaryRecipients": "clark@example.ru, anderson@example.ru",
+          "type": "Ожидает",
+          "status": "Тест 11",
+          "currentInstance": "Отдел клиентской поддержки",
+          "stage": "4 / 13",
+          "deadline": "2024-08-10",
+          "comment": "Ожидание окончательного одобрения."
+        },
+        {
+          "created": "2024-07-29 14:45",
+          "email": "adams@example.ru",
+          "secondaryRecipients": "jackson@example.ru, miller@example.ru",
+          "type": "Отклонено",
+          "status": "Тест 12",
+          "currentInstance": "Служба технической поддержки",
+          "stage": "2 / 14",
+          "deadline": "2024-08-12",
+          "comment": "Отклонено из-за жалобы клиента."
+        },
+        {
+          "created": "2024-07-30 12:30",
+          "email": "green@example.ru",
+          "secondaryRecipients": "davis@example.ru, johnson@example.ru",
+          "type": "На рассмотрении",
+          "status": "Тест 13",
+          "currentInstance": "Отдел НИОКР",
+          "stage": "3 / 15",
+          "deadline": "2024-08-15",
+          "comment": "На стадии разработки."
+        },
+        {
+          "created": "2024-07-31 13:20",
+          "email": "clark@example.ru",
+          "secondaryRecipients": "lewis@example.ru, wilson@example.ru",
+          "type": "Одобрено",
+          "status": "Тест 14",
+          "currentInstance": "Отдел по работе с клиентами",
+          "stage": "1 / 16",
+          "deadline": "2024-08-18",
+          "comment": "Одобрено для внедрения."
+        },
+        {
+          "created": "2024-08-01 09:05",
+          "email": "anderson@example.ru",
+          "secondaryRecipients": "wright@example.ru, martinez@example.ru",
+          "type": "Ожидает",
+          "status": "Тест 15",
+          "currentInstance": "Отдел по обучению",
+          "stage": "2 / 17",
+          "deadline": "2024-08-20",
+          "comment": "Ожидание решения."
+        },
+        {
+          "created": "2024-08-02 10:50",
+          "email": "wilson@example.ru",
+          "secondaryRecipients": "hernandez@example.ru, moore@example.ru",
+          "type": "Отклонено",
+          "status": "Тест 16",
+          "currentInstance": "Отдел автоматизации",
+          "stage": "3 / 18",
+          "deadline": "2024-08-22",
+          "comment": "Отклонено из-за проблем с автоматизацией."
+        },
+        {
+          "created": "2024-08-03 14:15",
+          "email": "wright@example.ru",
+          "secondaryRecipients": "johnson@example.ru, davis@example.ru",
+          "type": "На рассмотрении",
+          "status": "Тест 17",
+          "currentInstance": "Отдел внешних связей",
+          "stage": "4 / 19",
+          "deadline": "2024-08-25",
+          "comment": "В процессе рассмотрения."
+        }],
+
+    "orderSubjects":[
+      {
+          "Name": "Server Upgrade",
+          "Unit": "Piece",
+          "Amount": 5,
+          "Status": "Completed",
+          "Capex": 12000,
+          "Cost_hypothetical": 15000,
+          "Purpose": "Upgrade server hardware",
+          "Place_of_Installation": "Data Center",
+          "Time_of_Installation": "2024-03-15",
+          "Contract_number": "CON123456",
+          "Contract_date": "2023-12-01",
+          "Comment": "Completed on schedule"
+      },
+      {
+          "Name": "Office Renovation",
+          "Unit": "Square Meter",
+          "Amount": 200,
+          "Status": "In Progress",
+          "Capex": 50000,
+          "Cost_hypothetical": 55000,
+          "Purpose": "Renovate office space",
+          "Place_of_Installation": "Head Office",
+          "Time_of_Installation": "2024-06-30",
+          "Contract_number": "CON654321",
+          "Contract_date": "2024-01-15",
+          "Comment": "Materials are being procured"
+      },
+      {
+          "Name": "New Workstations",
+          "Unit": "Piece",
+          "Amount": 10,
+          "Status": "Pending",
+          "Capex": 15000,
+          "Cost_hypothetical": 16000,
+          "Purpose": "Purchase new workstations",
+          "Place_of_Installation": "Main Office",
+          "Time_of_Installation": "2024-05-01",
+          "Contract_number": "CON789012",
+          "Contract_date": "2024-02-01",
+          "Comment": "Pending supplier confirmation"
+      },
+      {
+          "Name": "Network Switch",
+          "Unit": "Piece",
+          "Amount": 3,
+          "Status": "Completed",
+          "Capex": 9000,
+          "Cost_hypothetical": 9500,
+          "Purpose": "Upgrade network infrastructure",
+          "Place_of_Installation": "Server Room",
+          "Time_of_Installation": "2024-04-10",
+          "Contract_number": "CON345678",
+          "Contract_date": "2024-01-20",
+          "Comment": "All units installed and tested"
+      },
+      {
+          "Name": "Security Cameras",
+          "Unit": "Piece",
+          "Amount": 15,
+          "Status": "In Progress",
+          "Capex": 8000,
+          "Cost_hypothetical": 8500,
+          "Purpose": "Enhance building security",
+          "Place_of_Installation": "Entrance and Hallways",
+          "Time_of_Installation": "2024-07-15",
+          "Contract_number": "CON987654",
+          "Contract_date": "2024-03-01",
+          "Comment": "Installation started, ongoing"
+      }
+  ]
+  
+}

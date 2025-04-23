@@ -1,0 +1,71 @@
+
+/* Table border sizes */
+.table-bold {
+    border: 2px solid !important;
+}
+
+.table-top-bordered {
+    border-top: 2px solid !important;
+}
+
+.border-right-transparent>.align-middle:nth-child(1),
+.border-right-transparent>.align-middle:nth-child(5) {
+    border-right: 2px solid !important;
+}
+
+.table-bottom-bordered {
+    border-bottom: 2px solid !important;
+}
+
+.table-bold tr {
+    background-color: transparent !important;
+}
+
+
+/* Table backgrounds, colors and weights */
+
+tr.bg-blue>.align-middle,
+.bg-blue-400.font-bold {
+    background-color: #BDD7EE;
+    font-weight: bold;
+}
+
+.bg-grey.font-400>.align-middle {
+    background-color: #D9D9D9;
+}
+
+.bg-grey.font-bold>.align-middle {
+    background-color: #D9D9D9;
+    font-weight: bold;
+}
+
+.bg-orange {
+    background-color: #F8CBAD !important;
+}
+
+.br-transparent {
+    border-right-color: transparent !important;
+}
+
+tr.border-bottom-transparent>.align-middle {
+    border-bottom-color: transparent !important;
+}
+
+.table-bold tr.bg-light-blue {
+    background-color: #ecf6ff !important;
+}
+
+.td-success {
+    background: #1AB069DD !important;
+}
+.td-success>span {
+    color: white !important;
+}
+
+.td-danger {
+    background: #d92839e8 !important;
+}
+.td-danger>span {
+    color: white !important;
+}
+
